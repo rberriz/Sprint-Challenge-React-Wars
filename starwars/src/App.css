@@ -2,7 +2,49 @@
   text-align: center;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: gold;
+  text-shadow: 2px 2px 5px #02067c;
+  font-size: 3.5rem;
 }
 /* write your parent styles in here for your App.js */
+.char-container {
+  display: flex;
+  justify-content: center;
+}
+
+.char {
+  background-color: #02067c;
+  border: 5px solid gold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 5px;
+  width: 26%;
+}
+
+.char-name {
+  width: 100%;
+  font-size: 2.5rem;
+  color: gold;
+  text-shadow: 2px 2px 3px #f2e7b8;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.char-data {
+  width: 100%;
+  padding: 2%;
+
+  text-align: left;
+}
+
+.char-data span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2e7b8;
+}
+
+.char-data {
+  border: 1px solid gold;
+  border-radius: 5px;
+}
