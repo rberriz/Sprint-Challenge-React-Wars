@@ -9,3 +9,5 @@
 1.  Describe state.
 
 1.  Describe props.
+properties
+//
